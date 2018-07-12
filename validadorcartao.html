@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Verificador de cartão utilizando javascript</title>
+	<script type="text/javascript" src="js/jquery-2-1-4.min.js"></script>
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+	<div style="margin:20px 0 10px 0;">
+		<div style="padding:10px 0 20px 20px;">
+			<div style="margin-top:10px;">
+				<span>Número do Cartão de Credito:</span>
+				<input type="text" id="numeroCartaoCredito" value="" maxLength="19" style="width:195px; padding:3px; margin:0 5px;"/>
+				<a style="margin:0 5px 0 3px;" href="javascript:validacaoCartaoCredito();">Validar</a>
+                <label><span id="mostraNumeroDigitado" style="display:none;"></span> <span id="resultadoValidacao" style="display:none;"></span></label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
